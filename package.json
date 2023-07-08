@@ -2,13 +2,18 @@
   "name": "quick-ts-setup",
   "description": "Quick TypeScript setup for projects",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "build/index.js",
   "author": "Carlos Santos",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "build": "tsc",
+    "dev": "nodemon --watch src --exec node --loader ts-node/esm --inspect src/index.ts"
   },
+  "dependencies": {},
   "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
   }
 }
