@@ -1,0 +1,14 @@
+{
+  "name": "quick-ts-setup",
+  "description": "Quick TypeScript setup for projects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Carlos Santos",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
