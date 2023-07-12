@@ -9,8 +9,8 @@
     "start": "node .",
     "build": "tsc",
     "dev": "nodemon --watch src --exec node --loader ts-node/esm --inspect src/index.ts",
-    "lint": "eslint .",
-    "format": "prettier ."
+    "lint": "eslint \"**/*.{ts,tsx}\"",
+    "format": "prettier . --write"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.62.0",
