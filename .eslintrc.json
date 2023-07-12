@@ -1,0 +1,5 @@
+{
+  "extends": ["xo", "xo-typescript", "prettier"],
+  "ignorePatterns": ["build"],
+  "root": true
+}
