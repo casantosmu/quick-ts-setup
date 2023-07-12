@@ -1,5 +1,3 @@
 const world = "world";
 
-const hello = (who: string = world) => `Hello ${who}! `;
-
-console.log(hello());
+export const hello = (who: string = world) => `Hello ${who}!`;

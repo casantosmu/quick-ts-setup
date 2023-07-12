@@ -2,7 +2,7 @@
 
 > Quick TypeScript setup for projects
 
-This repository provides a default configuration to quickly start TypeScript projects without the need for additional setup. It comes with minimal Prettier, ESLint, and strict tsconfig configurations, along with essential npm scripts.
+This repository provides a default configuration to quickly start TypeScript projects. It comes with minimal Prettier, ESLint and Jest configurations.
 
 ## Installation
 
@@ -32,6 +32,9 @@ Before starting your project, please make the following changes:
 - `npm start`: Start the application.
 - `npm run build`: Compile TypeScript code into the `build` folder.
 - `npm run dev`: Start the application in development mode with automatic restart and debug mode.
+- `npm test`: Run the test suite.
+- `npm run test:watch`: Run the test suite in watch mode.
+- `npm run test:coverage`: Run the test suite with code coverage analysis.
 - `npm run lint`: Run ESLint for static code analysis.
 - `npm run format`: Automatically format the code with Prettier.
 
