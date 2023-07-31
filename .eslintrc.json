@@ -1,10 +1,16 @@
 {
-  "extends": ["xo", "xo-typescript"],
+  "extends": ["xo"],
   "overrides": [
     {
+      "files": ["**/*.ts", "**/*.tsx"],
+      "extends": ["xo-typescript"]
+    },
+    {
       "files": [
-        "**/__tests__/**/*.[jt]s?(x)",
-        "**/?(*.)+(spec|test).[jt]s?(x)"
+        "**/*.test.ts",
+        "**/*.test.tsx",
+        "**/*.spec.ts",
+        "**/*.spec.tsx"
       ],
       "plugins": ["jest"],
       "extends": ["plugin:jest/recommended", "plugin:jest/style"]
