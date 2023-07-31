@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node .",
-    "build": "rimraf build && tsc",
+    "build": "rimraf build && tsc --project tsconfig.build.json",
     "dev": "nodemon --watch src --exec node --loader ts-node/esm --inspect src/index.ts",
     "test": "jest",
     "test:watch": "jest --watch",
