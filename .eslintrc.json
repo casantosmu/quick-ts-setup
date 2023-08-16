@@ -20,5 +20,15 @@
     "project": true
   },
   "root": true,
-  "ignorePatterns": ["build"]
+  "ignorePatterns": ["build"],
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts"]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true
+      }
+    }
+  }
 }
