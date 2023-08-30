@@ -2,6 +2,7 @@
   "compilerOptions": {
     /* Language and Environment */
     "target": "es2022",
+    "lib": ["es2023"],
     /* Modules */
     "module": "node16",
     "moduleResolution": "node16",
@@ -9,6 +10,7 @@
     "outDir": "build",
     /* Interop Constraints */
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     /* Type Checking */
     "strict": true,
     "exactOptionalPropertyTypes": true,
