@@ -1,6 +1,7 @@
 {
   "extends": [
     "eslint:recommended",
+    "plugin:eslint-comments/recommended",
     // Consider enabling strict-type-checked
     "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:@typescript-eslint/stylistic-type-checked",
@@ -29,5 +30,8 @@
         "alwaysTryTypes": true
       }
     }
+  },
+  "rules": {
+    "eslint-comments/no-unused-disable": "error"
   }
 }
