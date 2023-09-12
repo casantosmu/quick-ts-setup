@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node .",
     "build": "rimraf build && tsc --project tsconfig.build.json",
-    "dev": "nodemon --watch src --exec node --loader ts-node/esm --inspect src/index.ts",
+    "dev": "nodemon --watch src --watch .env --exec \"node -r dotenv/config -r ts-node/register --inspect\" src/index.ts",
     "test": "jest",
     "test:watch": "npm run test -- --watch",
     "test:coverage": "npm run test -- --coverage",
@@ -20,6 +20,7 @@
     "@types/node": "^20.6.0",
     "@typescript-eslint/eslint-plugin": "^6.6.0",
     "@typescript-eslint/parser": "^6.6.0",
+    "dotenv": "^16.3.1",
     "eslint": "^8.49.0",
     "eslint-import-resolver-typescript": "^3.6.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
