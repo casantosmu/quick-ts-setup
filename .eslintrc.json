@@ -20,7 +20,6 @@
     "project": true
   },
   "root": true,
-  "ignorePatterns": ["build"],
   "settings": {
     "import/parsers": {
       "@typescript-eslint/parser": [".ts"]
@@ -33,5 +32,6 @@
   },
   "rules": {
     "eslint-comments/no-unused-disable": "error"
-  }
+  },
+  "ignorePatterns": ["build", "coverage"]
 }
