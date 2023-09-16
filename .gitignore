@@ -1,4 +1,14 @@
-node_modules
-build
-coverage
-.env
+node_modules/
+build/
+
+# very important
+/**/.env*.local
+/**/.env
+
+# jest coverage
+coverage/
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
