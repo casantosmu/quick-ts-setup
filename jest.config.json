@@ -1,6 +1,6 @@
 {
   "preset": "ts-jest",
   "testEnvironment": "node",
-  "collectCoverageFrom": ["src/**/*.ts", "!src/index.ts"],
+  "collectCoverageFrom": ["<rootDir>/src/**/*.ts", "!<rootDir>/src/index.ts"],
   "setupFiles": ["dotenv/config"]
 }
