@@ -30,7 +30,7 @@ Before starting your project, please make the following changes:
 ## Usage
 
 - `npm start`: Start the application.
-- `npm run build`: Compile TypeScript code into the `build` folder.
+- `npm run build`: Compile TypeScript code into the `dist` folder.
 - `npm run dev`: Start the application in development mode with automatic restart, debug mode, and environment variables loaded from `.env`.
 - `npm test`: Run the test suite with loaded environment variables from `.env`
 - `npm run test:watch`: Run the test suite in watch mode.

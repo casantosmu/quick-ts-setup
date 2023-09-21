@@ -33,5 +33,5 @@
   "rules": {
     "eslint-comments/no-unused-disable": "error"
   },
-  "ignorePatterns": ["build", "coverage"]
+  "ignorePatterns": ["dist", "coverage"]
 }
