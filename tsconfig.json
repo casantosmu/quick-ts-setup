@@ -9,6 +9,7 @@
     /* Emit */
     "outDir": "dist",
     /* Interop Constraints */
+    "isolatedModules": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     /* Type Checking */
