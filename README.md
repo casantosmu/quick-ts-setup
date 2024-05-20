@@ -3,7 +3,7 @@
 > [!CAUTION]
 > This is no longer supported, please consider using [quick-ts-esm-setup](https://github.com/casantosmu/quick-ts-esm-setup) instead.
 
-***
+---
 
 > Quick TypeScript setup for projects
 
